@@ -1,0 +1,61 @@
+body {
+    margin: 0 ;
+    background-color: rgba(0, 0, 0, 0.895);
+
+}
+
+.nav-container{
+    display:  flex;
+    background-color: rgba(0, 0, 0, 0.816);
+    color: aqua;
+     align-items: center;
+     padding:  50px 40px;
+}
+.nav-container >h1  {
+    margin: 0;
+    margin-right: auto;
+}
+.nav-container  > h2 {
+    margin: 0;
+    color: white
+    
+}
+.nav-container > img {
+    width: 90px;
+    margin-right: 12px;
+}
+
+
+/* the main */
+main{
+    color: white;
+    margin: 0;
+    background-image: url(images/react-logo-black-and-white\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    background-position-y:bottom ;
+    background-size:510px ;
+    
+    
+}
+ul {
+    color: aqua; 
+}
+li {
+    color: white;
+}
+main {
+    padding: 50px;
+    font-size: 30px;
+}
+main > ul {
+    padding-top: 30px;
+}
+main > ul > li {
+    padding-block: 10px;
+}
+
+main > ul > li::marker {
+    font-size: 1,6rem;
+    color: aqua;
+}
